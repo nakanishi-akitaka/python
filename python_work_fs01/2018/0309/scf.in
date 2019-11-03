@@ -1,0 +1,30 @@
+&control
+  tstress=.true.
+  tprnfor=.true.
+/
+&system
+  nat=4
+  ntyp=3
+  ibrav=6
+  ecutwfc=40
+  ecutrho=320
+  celldm(1) = 8.19120935382000  
+  celldm(3) = 0.861959581045541 
+  occupations='smearing'
+  smearing='mv'
+  degauss=0.01
+/
+&electrons
+  conv_thr=1.D-9
+/
+ATOMIC_SPECIES
+  Ag  00.000  Ag.pbe-dn-rrkjus_psl.0.1.UPF
+  Ba  00.000  Ba.pbe-nsp-van.UPF
+   O  00.000   O.pbe-n-rrkjus_psl.0.1.UPF
+ATOMIC_POSITIONS {crystal}
+  Ag  0.500000  0.500000  0.000000
+  Ba  0.000000  0.000000  0.500000
+   O  0.000000  0.500000  0.000000
+   O  0.500000  0.000000  0.000000
+K_POINTS {automatic}
+  8  8  8  0 0 0
