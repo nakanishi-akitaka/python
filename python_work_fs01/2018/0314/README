@@ -1,0 +1,36 @@
+test1.py
+https://qiita.com/KentoObata/items/a909ecc42c8805594c89
+http://pymatgen.org/pymatgen.core.periodic_table.html#pymatgen.core.periodic_table.Element
+
+test2.py + bandgapDFT.csv
+https://qiita.com/KentoObata/items/7fd8c7527d586dffc329 + KAIZOU
+atomic fraction
+electronegativity
+group of atom1
+group of atom2
+
+test3.py + bandgapDFT.csv
+https://qiita.com/KentoObata/items/7fd8c7527d586dffc329 + KAIZOU
+atomic fraction
+electronegativity
+group of atoms
+row of atoms
+max_oxidation_state
+min_oxidation_state
+
+test4.py + bandgapDFT.csv
+https://qiita.com/KentoObata/items/7fd8c7527d586dffc329 + KAIZOU
+number of atoms
+group of atoms
+row of atoms
+max_oxidation_state
+min_oxidation_state
+
+test5.py + bandgapDFT.csv
+https://qiita.com/KentoObata/items/7fd8c7527d586dffc329 + KAIZOU
+atomic number
+number of atoms
+group of atoms
+row of atoms
+
+

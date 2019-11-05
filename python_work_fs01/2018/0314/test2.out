@@ -1,0 +1,6 @@
+Mean Absolute Error : 0.728 eV
+Mean Absolute Error by Random Forest with composition data: 0.37 eV
+Mean Absolute Error by Random Forest with physical 1 data: 0.698 eV
+Mean Absolute Error by Random Forest with physical 2 data: 0.528 eV
+Mean Absolute Error by Random Forest with physical 3 data: 0.38 eV
+Mean Absolute Error by Random Forest with physical 4 data: 0.266 eV

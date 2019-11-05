@@ -1,0 +1,73 @@
+{'Atomic mass': 55.845, 'Atomic no': 26, 'Atomic orbitals': {'1s': -254.225505, '2p': -25.551766, '2s': -29.56486, '3d': -0.295049, '3p': -2.187523, '3s': -3.360621, '4s': -0.197978}, 'Atomic radius': 1.4, 'Atomic radius calculated': 1.56, 'Boiling point': '3134 K', 'Brinell hardness': '490 MN m<sup>-2</sup>', 'Bulk modulus': '170 GPa', 'Coefficient of linear thermal expansion': '11.8 x10<sup>-6</sup>K<sup>-1</sup>', 'Common oxidation states': [2, 3], 'Critical temperature': 'no data K', 'Density of solid': '7874 kg m<sup>-3</sup>', 'Electrical resistivity': '10 10<sup>-8</sup> &Omega; m', 'Electronic structure': '[Ar].3d<sup>6</sup>.4s<sup>2</sup>', 'ICSD oxidation states': [2, 3], 'Ionic radii': {'2': 0.92, '3': 0.785}, 'Ionic radii hs': {'2': 0.92, '3': 0.785}, 'Ionic radii ls': {'2': 0.75, '3': 0.69, '4': 0.725, '6': 0.39}, 'Liquid range': '1323 K', 'Melting point': '1811 K', 'Mendeleev no': 61, 'Mineral hardness': '4.0', 'Molar volume': '7.09 cm<sup>3</sup>', 'Name': 'Iron', 'Oxidation states': [-2, -1, 1, 2, 3, 4, 5, 6], 'Poissons ratio': '0.29', 'Reflectivity': '65 %', 'Refractive index': 'no data', 'Rigidity modulus': '82 GPa', 'Shannon radii': {'2': {'IV': {'High Spin': {'crystal_radius': 0.77, 'ionic_radius': 0.63}}, 'IVSQ': {'High Spin': {'crystal_radius': 0.78, 'ionic_radius': 0.64}}, 'VI': {'Low Spin': {'crystal_radius': 0.75, 'ionic_radius': 0.61}, 'High Spin': {'crystal_radius': 0.92, 'ionic_radius': 0.78}}, 'VIII': {'High Spin': {'crystal_radius': 1.06, 'ionic_radius': 0.92}}}, '3': {'IV': {'High Spin': {'crystal_radius': 0.63, 'ionic_radius': 0.49}}, 'V': {'': {'crystal_radius': 0.72, 'ionic_radius': 0.58}}, 'VI': {'Low Spin': {'crystal_radius': 0.69, 'ionic_radius': 0.55}, 'High Spin': {'crystal_radius': 0.785, 'ionic_radius': 0.645}}, 'VIII': {'High Spin': {'crystal_radius': 0.92, 'ionic_radius': 0.78}}}, '4': {'VI': {'': {'crystal_radius': 0.725, 'ionic_radius': 0.585}}}, '6': {'IV': {'': {'crystal_radius': 0.39, 'ionic_radius': 0.25}}}}, 'Superconduction temperature': 'no data K', 'Thermal conductivity': '80 W m<sup>-1</sup> K<sup>-1</sup>', 'Van der waals radius': 'no data', 'Velocity of sound': '4910 m s<sup>-1</sup>', 'Vickers hardness': '608 MN m<sup>-2</sup>', 'X': 1.83, 'Youngs modulus': '211 GPa'}
+26
+Fe
+1.83
+26
+6
+-2
+(-2, -1, 1, 2, 3, 4, 5, 6)
+(2, 3)
+[(1, 's', 2), (2, 's', 2), (2, 'p', 6), (3, 's', 2), (3, 'p', 6), (3, 'd', 6), (4, 's', 2)]
+4
+8
+d
+False
+True
+False
+False
+False
+False
+False
+False
+False
+False
+Iron
+55.845 amu
+1.4 ang
+None
+61.0
+1e-07 m ohm
+4910.0 m s^-1
+65.0 
+None
+0.29
+7.09 cm^3
+[Ar].3d<sup>6</sup>.4s<sup>2</sup>
+{'1s': -254.225505, '2p': -25.551766, '2s': -29.56486, '3d': -0.295049, '3p': -2.187523, '3s': -3.360621, '4s': -0.197978}
+80.0 W K^-1 m^-1
+3134.0 K
+1811.0 K
+None
+None
+1323.0 K
+170.0 GPa
+211.0 GPa
+490.0 MN m^-2
+82.0 GPa
+4.0
+608.0 MN m^-2
+7874.0 kg m^-3
+1.18e-05 K^-1
+0.8525 ang
+{2: 0.92, 3: 0.785}
+True
+Fe
+{'@module': 'pymatgen.core.periodic_table', '@class': 'Element', 'element': 'Fe'}
+Fe
+Fe
+5D4.0
+(2, 3)
+Fe
+H                                                                   He 
+Li  Be                                          B   C   N   O   F   Ne 
+Na  Mg                                          Al  Si  P   S   Cl  Ar 
+K   Ca  Sc  Ti  V   Cr  Mn  Fe  Co  Ni  Cu  Zn  Ga  Ge  As  Se  Br  Kr 
+Rb  Sr  Y   Zr  Nb  Mo  Tc  Ru  Rh  Pd  Ag  Cd  In  Sn  Sb  Te  I   Xe 
+Cs  Ba      Hf  Ta  W   Re  Os  Ir  Pt  Au  Hg  Tl  Pb  Bi  Po  At  Rn 
+Fr  Ra                                                                 
+        La  Ce  Pr  Nd  Pm  Sm  Eu  Gd  Tb  Dy  Ho  Er  Tm  Yb  Lu     
+        Ac  Th  Pa  U   Np  Pu  Am  Cm  Bk  Cf  Es  Fm  Md  No  Lr     
+None
+[['1I6.0'], ['3H4.0', '3H5.0', '3H6.0'], ['3G3.0', '3G4.0', '3G5.0'], ['1G4.0'], ['1G4.0'], ['3F2.0', '3F3.0', '3F4.0'], ['3F2.0', '3F3.0', '3F4.0'], ['1F3.0'], ['5D0.0', '5D1.0', '5D2.0', '5D3.0', '5D4.0'], ['3D1.0', '3D2.0', '3D3.0'], ['1D2.0'], ['1D2.0'], ['3P0.0', '3P1.0', '3P2.0'], ['3P0.0', '3P1.0', '3P2.0'], ['1S0.0'], ['1S0.0']]
+(2, 6)
+Fe

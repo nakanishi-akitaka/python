@@ -1,0 +1,62 @@
+print(fe.Z) 26
+print(fe.symbol) Fe
+print(fe.X) 1.83
+print(fe.number) 26
+print(fe.max_oxidation_state) 6
+print(fe.min_oxidation_state) -2
+print(fe.oxidation_states) (-2, -1, 1, 2, 3, 4, 5, 6)
+print(fe.common_oxidation_states)(2, 3)
+print(fe.full_electronic_structure)[(1, 's', 2), (2, 's', 2), (2, 'p', 6), (3, 's', 2), (3, 'p', 6), (3, 'd', 6), (4, 's', 2)]
+print(fe.row) 4
+print(fe.group) 8
+print(fe.block) d
+print(fe.is_noble_gas) False
+print(fe.is_transition_metal) True
+print(fe.is_rare_earth_metal) False
+print(fe.is_metalloid) False
+print(fe.is_alkali) False
+print(fe.is_alkaline) False
+print(fe.is_halogen) False
+print(fe.is_chalcogen) False
+print(fe.is_lanthanoid) False
+print(fe.is_actinoid) False
+print(fe.long_name) Iron
+print(fe.atomic_mass) 55.845 amu
+print(fe.atomic_radius) 1.4 ang
+print(fe.van_der_waals_radius) None
+print(fe.mendeleev_no) 61.0
+print(fe.electrical_resistivity) 1e-07 m ohm
+print(fe.velocity_of_sound) 4910.0 m s^-1
+print(fe.reflectivity) 65.0
+print(fe.refractive_index) None
+print(fe.poissons_ratio) 0.29
+print(fe.molar_volume) 7.09 cm^3
+print(fe.electronic_structure) [Ar].3d<sup>6</sup>.4s<sup>2</sup>
+print(fe.atomic_orbitals) {'1s': -254.225505, '2p': -25.551766, '2s': -29.56486, '3d': -0.295049, '3p': -2.187523, '3s': -3.360621, '4s': -0.197978}
+print(fe.thermal_conductivity) 80.0 W K^-1 m^-1
+print(fe.boiling_point)                           3134.0 K
+print(fe.melting_point)                           1811.0 K
+print(fe.critical_temperature)                    None
+print(fe.superconduction_temperature)             None
+print(fe.liquid_range)                            1323.0 K
+print(fe.bulk_modulus)                            170.0 GPa
+print(fe.youngs_modulus)                          211.0 GPa
+print(fe.brinell_hardness)                        490.0 MN m^-2
+print(fe.rigidity_modulus)                        82.0 GPa
+print(fe.mineral_hardness)                        4.0
+print(fe.vickers_hardness)                        608.0 MN m^-2
+print(fe.density_of_solid)                        7874.0 kg m^-3
+print(fe.coefficient_of_linear_thermal_expansion) 1.18e-05 K^-1
+print(fe.average_ionic_radius)                    0.8525 ang
+print(fe.ionic_radii)                             {2: 0.92, 3: 0.785}
+print(fe.is_valid_symbol)           <function Element.is_valid_symbol at 0x2b07a19eb840>
+print(fe.from_Z)                    <function Element.from_Z at 0x2b07a19eb730>
+print(fe.from_dict)                 <function Element.from_dict at 0x2b07a19ec0d0>
+print(fe.from_row_and_group)        <function Element.from_row_and_group at 0x2b07a19eb7b8>
+print(fe.ground_state_term_symbol)  5D4.0
+print(fe.icsd_oxidation_states)     (2, 3)
+print(fe.name)                      Fe
+print(fe.print_periodic_table)      <function Element.print_periodic_table at 0x2b07a19ec1e0>
+print(fe.term_symbols)              [['1I6.0'], ['3H4.0', '3H5.0', '3H6.0'], ['3G3.0', '3G4.0', '3G5.0'], ['1G4.0'], ['1G4.0'], ['3F2.0', '3F3.0', '3F4.0'], ['3F2.0', '3F3.0', '3F4.0'], ['1F3.0'], ['5D0.0', '5D1.0', '5D2.0', '5D3.0', '5D4.0'], ['3D1.0', '3D2.0', '3D3.0'], ['1D2.0'], ['1D2.0'], ['3P0.0', '3P1.0', '3P2.0'], ['3P0.0', '3P1.0', '3P2.0'], ['1S0.0'], ['1S0.0']]
+print(fe.valence)                   (2, 6)
+print(fe.value)                     Fe
