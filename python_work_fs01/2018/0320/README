@@ -1,0 +1,12 @@
+cross_val_score
+http://scikit-learn.org/stable/modules/model_evaluation.html#scoring-parameter
+test1.py
+
+R^2 test of Eg 
+test2.py
+test3.py
+
+predict of Tc
+test4.py min explanatroy variable
+test5.py add explanatroy variable
+test6.py linear regression
