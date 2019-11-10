@@ -1,0 +1,28 @@
+predict Tc(P) of AsH8 at 100 - 550 GPa
+test1.py
+
+grid search of hyper parameter (n_estimators)
+test2.py
+
+for loop search of hyper parameter (n_estimators, max_depth)
+test3.py
+
+predict Tc(P) of AsH8 at 100 - 550 GPa again with optimized parameter
+test4.py
+
+brute-force search test
+edit format of output
+test5.py
+
+brute-force search test
+make hydrides based on periodic table
+test6.py
+
+brute-force search of hydrides
+test7.py
+
+add explanatroy variable
+test8.py
+
+learning lambda, wlog
+test9.py
