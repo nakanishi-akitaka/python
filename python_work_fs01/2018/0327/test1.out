@@ -1,0 +1,5 @@
+Mean Absolute Error : 0.728 eV
+R2  by LR with composition data: 0.484   
+R2  by DT with composition data: 0.189   
+R2  by RF with composition data: 0.381   
+R2  by NN with composition data: 0.763   
