@@ -1,0 +1,8 @@
+http://www.cauldron.sakura.ne.jp/thinkpython/thinkpython/ThinkPython.pdf
+Section.4
+test1.py # my code
+test2.py # copy of answer
+NOTE:
+$ /usr/bin/python test1.py
+$ /usr/bin/python test2.py
+
