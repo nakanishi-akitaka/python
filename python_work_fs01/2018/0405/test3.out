@@ -1,0 +1,131 @@
+0.759154430596542
+2.72186274509804
+24.877544117647066
+0.030157373479908423
+0.7568101555135096
+regr.estimators_
+[DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1989222290, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=499845223, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1907091530, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1609435861, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=736316669, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=210180820, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1052582875, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1147748430, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=901891985, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1947400890, splitter='best')]
+
+regr.feature_importances_
+[0.04047809 0.00090968 0.00622462 0.00133117 0.02110482 0.38024068
+ 0.01564102 0.02440473 0.00326396 0.01080742 0.02296417 0.01432953
+ 0.45830011]
+
+regr.n_features_
+13
+
+regr.n_outputs_
+1
+
+regr.oob_score_
+0.7638794509735372
+
+regr.oob_prediction_
+[ 0.         20.2        18.33333333 19.83333333 32.96666667 10.03333333
+ 24.05       17.63333333 19.23333333 20.48       19.5        11.725
+ 20.2        20.05       20.2        21.12       25.05       18.93333333
+  8.56666667 19.55       23.93333333 26.26666667 24.8        15.2
+ 21.125      20.225      23.125      25.425      19.1        18.1
+ 25.05       14.8        30.12       19.45       14.82       22.76666667
+ 12.         16.75       22.8        18.78       20.2        18.8
+ 21.76666667 47.28       29.9        20.4        16.1        32.
+  0.         19.96666667 13.44       26.275      21.38       22.65
+ 22.375      15.96666667 31.63333333  7.16666667 14.71666667 18.66666667
+ 20.825      28.7        16.         29.5        17.425      20.2
+ 37.24285714 19.1        23.56666667 24.88       19.275      24.4
+ 14.7        47.         33.45       15.5        14.4        20.575
+ 23.65       21.06        9.2        22.425      21.41666667 12.03333333
+ 19.65       23.375      47.28       44.33333333 24.8        34.73333333
+ 24.5        19.9        17.7        19.88       18.6        26.98
+ 33.2        19.725      24.62       21.65       49.25       20.08
+ 17.25       27.13333333 25.75       27.68       22.74       20.05
+ 20.8        21.23333333 19.1        26.23333333 15.61428571 28.2
+ 14.52       19.53333333 14.66666667 15.78       23.42857143 24.2
+ 34.31666667 25.6        38.44       33.63333333 46.52       10.625
+ 28.13333333 22.9        20.25       24.7        23.925      19.03333333
+ 23.26       21.8        20.6        37.6        31.7        10.76666667
+ 14.5        27.76666667 16.54       19.2        20.975      30.93333333
+ 19.43333333 21.475      19.375      19.46666667 18.325      12.175
+ 13.375      19.6        22.625      28.175      16.75       22.175
+ 15.8        19.73333333 32.16666667  0.         17.425      26.76666667
+ 22.05714286  0.         30.02       22.325      22.56666667 21.6
+  8.72       12.725      19.05       27.4        48.875      16.56
+ 23.86       25.58       21.81666667 33.2        22.85       18.95
+ 22.05       22.86       48.8        15.         10.35       23.1
+ 40.6        10.4        13.6        19.11666667 23.96666667 43.63333333
+ 21.35        9.75       23.68       17.55       14.42       33.1
+ 25.26       19.55       19.5        18.53333333 25.3        41.32
+ 11.76666667 21.61666667 19.03333333 43.73333333 37.         18.42
+ 19.72       18.2        15.98       33.925      22.86666667 30.8
+ 21.42       24.81666667 15.26       11.65       33.85       21.3
+ 15.225      33.1        16.7        20.18       20.61666667 13.63333333
+ 15.85       44.26666667 25.48571429  8.7         8.7        19.5875
+ 21.95       27.875      34.84       23.1        16.8        39.525
+ 24.85       19.08       32.1        18.9        32.28333333 13.32
+ 38.85       27.975      19.4        13.06       20.76666667 19.2
+ 22.3        26.5        38.05       20.5        23.         29.4
+ 18.95       14.05       13.3         8.65714286 21.6         7.2
+ 16.03333333 48.34       33.9        16.2        11.05       21.94
+ 15.3        11.62       24.275      41.66666667  8.9        26.04
+ 10.7        20.62       21.15       17.05714286 20.15       17.9
+ 13.1        33.8        13.725      26.02        7.6        32.25
+ 15.65       14.5        21.1        22.13333333 13.625      26.
+ 31.73333333 11.6        29.4         8.3        33.61428571 33.3
+ 24.875       5.         14.35       18.8        21.43333333 27.25
+ 25.325      18.03333333 22.96666667 15.3         9.25       22.2
+ 20.5        32.86666667 24.25       21.23333333 21.2        22.5
+ 17.1        26.2        34.25       20.45       20.2        48.5
+ 17.675      50.         18.7        10.2        11.5        32.5
+ 16.38       35.25       21.4        21.34       15.95       36.62
+ 20.675      22.98       25.51666667 21.7        20.3        22.95
+ 21.64       36.825      20.9        21.33333333 20.53333333 17.74
+ 27.38       29.8        19.175      22.6        22.06666667 22.4
+ 25.35       21.7        10.375      25.7        22.475      20.7
+ 42.6        28.8        11.3        21.575      21.1        19.86666667
+ 19.55       19.83333333 50.         41.26666667 19.05       36.
+ 23.4        19.175      29.825      17.45714286 26.03333333 22.15714286
+ 26.4        15.84       36.28333333 18.75       32.4        15.53333333
+ 23.2        16.9        15.66666667 27.85       19.         27.2
+ 10.         32.         46.66666667  0.         24.9        20.36666667
+ 18.8        24.55       24.71666667 19.95        0.         13.4
+ 21.225      27.125     ]
