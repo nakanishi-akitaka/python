@@ -1,0 +1,118 @@
+clf.estimators_
+[DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=34193794, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=979041331, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=129112617, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=317102470, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=1791332857, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=760226664, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=427129062, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=436266898, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=1380166058, splitter='best'), DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False,
+            random_state=1777899625, splitter='best')]
+
+clf.feature_importances_
+[0.16095794 0.04213225 0.32429092 0.4726189 ]
+
+clf.n_features_
+4
+
+clf.n_outputs_
+1
+metrics.accuracy_score
+0.9666666666666667
+metrics.f1_score
+0.9667356797791581
+metrics.precision_score
+0.9666666666666667
+metrics.recall_score
+0.9666666666666667
+metrics.explained_variance_score
+0.9458955223880597
+metrics.mean_absolute_error
+0.03333333333333333
+metrics.mean_squared_error
+0.03333333333333333
+metrics.mean_squared_log_error
+0.005480065129772184
+metrics.r2_score
+0.9440298507462687
+metrics.accuracy_score
+0.9666666666666667
+metrics.cohen_kappa_score
+0.9494949494949495
+metrics.confusion_matrix
+[[ 8  0  0]
+ [ 0 11  1]
+ [ 0  0 10]]
+metrics.classification_report
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00         8
+          1       1.00      0.92      0.96        12
+          2       0.91      1.00      0.95        10
+
+avg / total       0.97      0.97      0.97        30
+
+metrics.hamming_loss
+0.03333333333333333
+metrics.jaccard_similarity_score
+0.9666666666666667
+metrics.f1_score
+0.9667356797791581
+metrics.precision_score
+0.9666666666666667
+metrics.recall_score
+0.9666666666666667
+metrics.fbeta_score, beta=0.5
+0.9666666666666666
+metrics.fbeta_score, beta=1
+0.9666666666666667
+metrics.fbeta_score, beta=2
+0.9666666666666666
+metrics.precision_score,                     average= micro
+0.9666666666666667
+metrics.precision_score,                     average= macro
+0.9696969696969697
+metrics.precision_score,                     average= weighted
+0.9696969696969696

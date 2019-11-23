@@ -1,0 +1,63 @@
+regr.estimators_
+[DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=534675845, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=391811674, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=407977529, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1094910528, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1993818619, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=43500475, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1196816514, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1432715344, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=777027014, splitter='best'), DecisionTreeRegressor(criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=1262583500, splitter='best')]
+
+regr.feature_importances_
+[0.02326011 0.00084584 0.00509203 0.00060081 0.03887263 0.50593201
+ 0.01943582 0.07182335 0.00188841 0.01162633 0.01187186 0.0089251
+ 0.29982572]
+
+regr.n_features_
+13
+
+regr.n_outputs_
+1
+metrics.explained_variance_score
+0.8619185667330083
+metrics.mean_absolute_error(y_test, y_predicted)
+2.607352941176471
+metrics.mean_squared_error(y_test, y_predicted)
+14.238179411764705
+metrics.median_absolute_error(y_test, y_predicted)
+1.7750000000000057
+metrics.r2_score(y_test, y_predicted)
+0.8619140139248758
