@@ -1,0 +1,16 @@
+test_score : 1.0
+best_param : {'max_depth': 2, 'n_estimators': 5}
+test_score : 1.0
+best_param : {'pca__n_components': 1, 'rf__max_depth': 10, 'rf__n_estimators': 10}
+pred values =  [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0]
+true values =  [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0]
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        16
+          1       1.00      1.00      1.00        24
+
+avg / total       1.00      1.00      1.00        40
+
+[[16  0]
+ [ 0 24]]
+0.0
