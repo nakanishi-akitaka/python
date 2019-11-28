@@ -1,0 +1,25 @@
+RandomizedSearchCV took 2.71 seconds for 20 candidates parameter settings.
+Model with rank: 1
+Mean validation score: 0.924 (std: 0.011)
+Parameters: {'bootstrap': True, 'criterion': 'gini', 'max_depth': None, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 9}
+
+Model with rank: 2
+Mean validation score: 0.923 (std: 0.012)
+Parameters: {'bootstrap': True, 'criterion': 'gini', 'max_depth': None, 'max_features': 6, 'min_samples_leaf': 4, 'min_samples_split': 5}
+
+Model with rank: 3
+Mean validation score: 0.917 (std: 0.018)
+Parameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': None, 'max_features': 8, 'min_samples_leaf': 5, 'min_samples_split': 3}
+
+GridSearchCV took 27.17 seconds for 216 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.931 (std: 0.017)
+Parameters: {'bootstrap': True, 'criterion': 'gini', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 1, 'min_samples_split': 3}
+
+Model with rank: 1
+Mean validation score: 0.931 (std: 0.021)
+Parameters: {'bootstrap': False, 'criterion': 'gini', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 1, 'min_samples_split': 3}
+
+Model with rank: 3
+Mean validation score: 0.930 (std: 0.013)
+Parameters: {'bootstrap': False, 'criterion': 'gini', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}
