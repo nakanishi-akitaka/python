@@ -1,0 +1,70 @@
+# 1. Basic follow of machine learning
+pred values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+true values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+             precision    recall  f1-score   support
+
+          0       0.90      1.00      0.95        19
+          1       1.00      0.90      0.95        21
+
+avg / total       0.95      0.95      0.95        40
+
+[[19  0]
+ [ 2 19]]
+0.22360679774997896
+
+
+# 2. parameter optimization (Grid Search)
+test_score : 0.95
+best_param : {'max_depth': 2, 'n_estimators': 2}
+pred values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+true values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+classification_report = 
+             precision    recall  f1-score   support
+
+          0       0.90      1.00      0.95        19
+          1       1.00      0.90      0.95        21
+
+avg / total       0.95      0.95      0.95        40
+
+confusion_matrix = 
+[[19  0]
+ [ 2 19]]
+ MSE =  0.22360679774997896
+
+
+# 3. use pipeline
+test_score : 1.0
+best_param : {'pca__n_components': 2, 'rf__max_depth': 2, 'rf__n_estimators': 100}
+pred values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+true values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+classification_report = 
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        19
+          1       1.00      1.00      1.00        21
+
+avg / total       1.00      1.00      1.00        40
+
+confusion_matrix = 
+[[19  0]
+ [ 0 21]]
+ MSE =  0.0
+
+
+# 4. parameter optimization (Randomized Search)
+test_score : 1.0
+best_param : {'pca__n_components': 2, 'rf__max_depth': 216, 'rf__n_estimators': 73}
+pred values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+true values =  [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0]
+classification_report = 
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        19
+          1       1.00      1.00      1.00        21
+
+avg / total       1.00      1.00      1.00        40
+
+confusion_matrix = 
+[[19  0]
+ [ 0 21]]
+ MSE =  0.0
