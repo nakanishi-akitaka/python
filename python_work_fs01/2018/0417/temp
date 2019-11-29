@@ -1,0 +1,9 @@
+../0314/test1.py:print(fe.coefficient_of_linear_thermal_expansion) # html
+../0315/test0.py:#   print(Element(x),Element(x).coefficient_of_linear_thermal_expansion) # html
+../0402/test1.py:from math import exp, sin, pi, sqrt
+../0405/test3.py:print(metrics.explained_variance_score(y_test, y_predicted))
+../0406/test3.py:print('metrics.explained_variance_score')
+../0406/test3.py:print( metrics.explained_variance_score(y_test, y_predicted))
+../0411/test5.py:'C': scipy.stats.expon(scale=100), 
+../0411/test5.py:'gamma': scipy.stats.expon(scale=.1),
+../0417/test1.py:print(pca.explained_variance_ratio_)

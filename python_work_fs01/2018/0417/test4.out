@@ -1,0 +1,23 @@
+# SVR(rbf) with default hyper parameters
+pred values =  [9.792722445987964, 9.792722445987964, 9.792722445987966, 9.792722445987964, 9.792722445987799]
+true values =  [16.7, 1.3, 6.4, 14.1, 7.5]
+ MSE =  5.570576262648039
+ R^2 =  -0.01145110488845491
+# SVR(rbf) with GridSearched hyper parameters
+best_param : {'C': 5.0, 'gamma': 0.01}
+pred values =  [10.308352814050716, 10.30444793066873, 10.65809506474981, 10.294343167483897, 9.307940364955932]
+true values =  [16.7, 1.3, 6.4, 14.1, 7.5]
+ MSE =  5.61811858465693
+ R^2 =  -0.028789323053050486
+# SVR(rbf) with GridSearched hyper parameters after Standardization and PCA
+best_param : {'pca__n_components': 2, 'svr__C': 9.0, 'svr__gamma': 0.05}
+pred values =  [14.566535945983226, 2.7725546958764173, 9.34462473341913, 15.517343132788127, 7.513961070566381]
+true values =  [16.7, 1.3, 6.4, 14.1, 7.5]
+ MSE =  1.86547353185973
+ R^2 =  0.8865713331789694
+# SVR(rbf) with RandomizedSearched hyper parameters after Standardization and PCA
+best_param : {'pca__n_components': 2, 'svr__C': 8.58426907209114, 'svr__gamma': 0.4033288217746611}
+pred values =  [15.959144105214671, 5.497598316740104, 8.720117788236497, 15.730363022781065, 7.986865868484173]
+true values =  [16.7, 1.3, 6.4, 14.1, 7.5]
+ MSE =  2.2998594564353536
+ R^2 =  0.8275960391344485
