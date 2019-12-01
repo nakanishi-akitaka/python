@@ -1,0 +1,4 @@
+# LR(rbf) with default hyper parameters
+RMSE, MAE, RMSE/MAE, R^2 = 3.07, 2.85, 1.08, 0.69
+# LR(rbf) after Standardization and PCA
+RMSE, MAE, RMSE/MAE, R^2 = 3.07, 2.85, 1.08, 0.69

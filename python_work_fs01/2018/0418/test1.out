@@ -1,0 +1,11 @@
+# SVR(rbf) with default hyper parameters
+RMSE, MAE, RMSE/MAE, R^2 = 5.57, 5.08, 1.10, -0.01
+# SVR(rbf) with GridSearched hyper parameters
+RMSE, MAE, RMSE/MAE, R^2 = 2.99, 2.61, 1.15, 0.71
+best_param : {'C': 1000, 'gamma': 0.0001}
+# SVR(rbf) with GridSearched hyper parameters after Standardization and PCA
+RMSE, MAE, RMSE/MAE, R^2 = 3.12, 2.90, 1.08, 0.68
+best_param : {'pca__n_components': 3, 'svr__C': 1000, 'svr__gamma': 0.01}
+# SVR(rbf) with RandomizedSearched hyper parameters after Standardization and PCA
+RMSE, MAE, RMSE/MAE, R^2 = 2.02, 1.70, 1.19, 0.87
+best_param : {'pca__n_components': 3, 'svr__C': 9.746641226069078, 'svr__gamma': 0.49591346173632367}
