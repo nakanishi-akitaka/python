@@ -1,0 +1,8 @@
+[Book] koredake ha sitte okitai data science no kihonn ga wakaru honn (Takahiro Suzuki)
+Sec. 7.3
+test1.py
+
+predict Tc(P) of AsH8 at 100 - 550 GPa (RFR)
+../0322/test1.py
+->
+test2.py (SVR+GridSearchCV)

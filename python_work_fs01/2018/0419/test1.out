@@ -1,0 +1,7 @@
+# SVR(rbf) with default hyper parameters
+RMSE, MAE, RMSE/MAE, R^2 = 5.57, 5.08, 1.10, -0.01
+
+# SVR with GridSearched hyper parameters
+RMSE, MAE, RMSE/MAE, R^2 = 3.14, 2.92, 1.08, 0.68
+best_score  : 0.6642143065906728
+best_params : {'C': 0.7000000000000001, 'kernel': 'linear'}
