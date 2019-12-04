@@ -1,0 +1,56 @@
+# SVR(rbf) with default hyper parameters
+learning
+RMSE, MAE, RMSE/MAE, R^2 = 38.63, 28.55, 1.35, 0.04
+Tc (predicted) [35.03575488 35.03575488 35.03576404 35.10250142 35.10244619 36.03575488
+ 36.03569943 36.03575488 35.10250142 35.03575488]
+
+# SVR with GridSearched hyper parameters
+learning
+scoring =  neg_mean_absolute_error
+RMSE, MAE, RMSE/MAE, R^2 = 37.16, 26.51, 1.40, 0.11
+Tc (predicted) [19.29510972 37.14718454 48.57111591 47.9290017  39.45637129 32.7484688
+ 31.49352361 32.02548023 32.02247455 32.61118241]
+best_score  : -29.245109777843776
+best_params : {'C': 2, 'gamma': 0.0001}
+
+
+scoring =  neg_mean_squared_error
+RMSE, MAE, RMSE/MAE, R^2 = 37.45, 27.34, 1.37, 0.09
+Tc (predicted) [23.42041576 37.8186997  47.49709748 47.00743059 39.81366017 33.54102829
+ 31.49259469 31.7573112  32.29441055 32.96519916]
+best_score  : -1546.9526177359392
+best_params : {'C': 1, 'gamma': 0.0001}
+
+
+scoring =  r2
+RMSE, MAE, RMSE/MAE, R^2 = 37.45, 27.34, 1.37, 0.09
+Tc (predicted) [23.42041576 37.8186997  47.49709748 47.00743059 39.81366017 33.54102829
+ 31.49259469 31.7573112  32.29441055 32.96519916]
+best_score  : -0.057367260864938055
+best_params : {'C': 1, 'gamma': 0.0001}
+
+
+
+# SVR with GridSearched hyper parameters after Standardization and PCA
+scoring =  neg_mean_absolute_error
+RMSE, MAE, RMSE/MAE, R^2 = 23.34, 14.24, 1.64, 0.65
+Tc (predicted) [ 70.80146571  79.98530301  89.11950458  98.10264116 106.83396329
+ 115.21518597 123.15222468 130.55683975 137.3481489  143.45397219]
+best_score  : -25.15860941931203
+best_params : {'svr__C': 200, 'svr__gamma': 3}
+
+
+scoring =  neg_mean_squared_error
+RMSE, MAE, RMSE/MAE, R^2 = 24.39, 15.32, 1.59, 0.62
+Tc (predicted) [ 66.68575349  74.25339497  81.67605948  88.89289415  95.84464724
+ 102.47443101 108.72845192 114.55669539 119.91355307 124.75838214]
+best_score  : -1191.9813040821489
+best_params : {'svr__C': 200, 'svr__gamma': 2}
+
+
+scoring =  r2
+RMSE, MAE, RMSE/MAE, R^2 = 24.36, 15.26, 1.60, 0.62
+Tc (predicted) [ 69.60004875  76.46818633  83.2632751   89.91031307  96.33542633
+ 102.46718389 108.23786275 113.58463184 118.45062591 122.78588412]
+best_score  : 0.10971665386198584
+best_params : {'svr__C': 90, 'svr__gamma': 3}
