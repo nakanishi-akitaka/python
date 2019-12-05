@@ -1,0 +1,21 @@
+https://qiita.com/ishizakiiii/items/0650723cc2b4eef2c1cf
+../0412/test8.py
+../0413/test5.py
+->
+../0416/test1.py
+->
+../0420/test1.py
+-> 0423/test0.py
+basic follow of machine learning
+to be updated 
+
+
+
+predict Tc(P) of AsH8 at 100 - 550 GPa (RFR)
+../0322/test1.py
+->
+test2.py (SVR+GridSearchCV)
+->
+test2.py (MinMaxScaler+PCA+SVR+GridSearchCV)
+->
+test1.py (StandardScaler+PCA+SVR+GridSearchCV)
