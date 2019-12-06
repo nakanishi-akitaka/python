@@ -1,0 +1,4 @@
+  File "test.py", line 77
+    joblib.dump(grid_search,/work/nakanishi/533161/model.pkl')
+                            ^
+SyntaxError: invalid syntax

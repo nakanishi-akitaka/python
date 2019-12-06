@@ -1,0 +1,31 @@
+0423/test0.py
+basic follow of machine learning
+to be updated 
+
+[Book] koredake ha sitte okitai data science no kihonn ga wakaru honn (Takahiro Suzuki)
+Sec. 7.3
+test1.py
+  read X, y(train, test) from file
+-> 
+update
+test2.py
+  read X, y from csv file containing "y, X1, X2, ..., Xn"
+ref
+http://data-science.gr.jp/implementation/iml_sklearn_svm.htmlhttps://techblog.yahoo.co.jp/datascience/use_scikit-learn/
+https://algorithm.joho.info/machine-learning/python-scikit-learn-regression-multiple-dump/
+
+brute-force search of hydrides
+test3.py
+<ref>
+0322
+brute-force search test
+edit format of output
+test5.py
+
+brute-force search test
+make hydrides based on periodic table
+test6.py
+
+brute-force search of hydrides
+test7.py
+</ref>

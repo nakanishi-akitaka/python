@@ -1,0 +1,21 @@
+train_file = 
+test_file = 
+# SVR(rbf) with default hyper parameters
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 3.601, 2.676, 1.346, 0.337
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 5.571, 5.079, 1.097, -0.011
+
+# SVR with GridSearched hyper parameters
+search score
+best_score  : 0.8699632076531731
+best_params : {'C': 1, 'kernel': 'linear'}
+0.870 (+/-0.113) for {'C': 1, 'kernel': 'linear'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 1.429, 1.111, 1.287, 0.896
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 3.174, 2.943, 1.078, 0.672
+
+# SVR with GridSearched hyper parameters after Standardization and PCA
+search score
+best_score  : 0.8371879133291081
+best_params : {'pca__n_components': 3, 'svr__C': 90, 'svr__gamma': 0.09}
+0.837 (+/-0.070) for {'pca__n_components': 3, 'svr__C': 90, 'svr__gamma': 0.09}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 1.401, 1.084, 1.293, 0.900
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 2.659, 2.496, 1.065, 0.770

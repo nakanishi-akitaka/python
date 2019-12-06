@@ -1,0 +1,9 @@
+train_file = 
+test_file = 
+
+# SVR with GridSearched hyper parameters
+search score
+best_score  : 0.8699632076531731
+best_params : {'C': 1, 'kernel': 'linear'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 1.429, 1.111, 1.287, 0.896
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 3.174, 2.943, 1.078, 0.672
