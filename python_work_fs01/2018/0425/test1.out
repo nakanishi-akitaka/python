@@ -1,0 +1,29 @@
+
+# SVR with GridSearched hyper parameters
+search score
+best_score  : 0.013856871287790524
+best_params : {'C': 60, 'gamma': 0.9, 'kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 10.368, 4.665, 2.222, 0.931
+Al1H5 P = 250 GPa Tc = 131.9 K
+ S1H3 P = 200 GPa Tc = 159.5 K
+Ca1H6 P = 150 GPa Tc = 161.9 K
+46.21 seconds 
+[ 0.03017898  0.06964087 -0.05824924]
+
+
+# SVR with GridSearched hyper parameters after MinMaxScaler
+search score
+best_score  : 0.15337737165875023
+best_params : {'svr__C': 20, 'svr__gamma': 0.4, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 33.372, 22.953, 1.454, 0.280
+38.39 seconds 
+[0.1299076  0.23297711 0.0972474 ]
+
+
+# SVR with GridSearched hyper parameters after StandardScaler
+search score
+best_score  : 0.2036150736835626
+best_params : {'svr__C': 9, 'svr__gamma': 0.04, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 32.791, 22.257, 1.473, 0.305
+31.44 seconds 
+[0.12340691 0.25325743 0.23418088]

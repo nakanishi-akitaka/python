@@ -1,0 +1,31 @@
+
+# SVR with GridSearched hyper parameters
+search score
+best_score  : 0.011797647454008763
+best_params : {'C': 1000, 'gamma': 1, 'kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 6.029, 3.305, 1.824, 0.977
+Al1H5 P = 250 GPa Tc = 132.1 K
+ S1H3 P = 200 GPa Tc = 191.1 K
+ S1H3 P = 250 GPa Tc = 183.9 K
+ S1H3 P = 300 GPa Tc = 178.9 K
+Ca1H6 P = 150 GPa Tc = 163.1 K
+As1H8 P = 350 GPa Tc = 140.9 K
+As1H8 P = 400 GPa Tc = 143.8 K
+As1H8 P = 450 GPa Tc = 151.3 K
+564.67 seconds 
+
+
+# SVR with GridSearched hyper parameters after MinMaxScaler
+search score
+best_score  : 0.14337372904060883
+best_params : {'svr__C': 10, 'svr__gamma': 0.7000000000000001, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 33.304, 22.728, 1.465, 0.283
+1.78 seconds 
+
+
+# SVR with GridSearched hyper parameters after MinMaxScaler and PCA
+search score
+best_score  : 0.1761700692689447
+best_params : {'pca__n_components': 4, 'svr__C': 1, 'svr__gamma': 10, 'svr__kernel': 'sigmoid'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 36.549, 26.331, 1.388, 0.137
+4.19 seconds 

@@ -1,0 +1,51 @@
+
+
+# 1. SVR with default hyper parameters
+prediction score
+RMSE, MAE, RMSE/MAE, R^2 = 0.09, 0.08, 1.10, 0.99
+R^2 train : 0.731, test : 0.985
+
+
+# 2. parameter optimization (Grid Search)
+search score
+best_score  : 0.22696769687799345
+best_params : {'C': 60, 'gamma': 0.6000000000000001, 'kernel': 'rbf'}
+prediction score
+RMSE, MAE, RMSE/MAE, R^2 = 0.25, 0.14, 1.74, 0.88
+R^2 train : 0.774, test : 0.877
+
+
+# 3. use pipeline, Standard Scaler, PCA
+search score
+best_score  : 0.21288060090677807
+best_params : {'svr__C': 5, 'svr__gamma': 0.30000000000000004, 'svr__kernel': 'rbf'}
+prediction score
+RMSE, MAE, RMSE/MAE, R^2 = 0.10, 0.10, 1.00, 0.98
+R^2 train : 0.723, test : 0.980
+
+
+# 4. many scoring methods
+scoring =  neg_mean_absolute_error
+search score
+best_score  : -0.2463852319371344
+best_params : {'C': 20, 'gamma': 0.7000000000000001, 'kernel': 'rbf'}
+prediction score
+RMSE, MAE, RMSE/MAE, R^2 = 0.25, 0.14, 1.80, 0.87
+R^2 train : -0.236, test : -0.140
+
+scoring =  neg_mean_squared_error
+search score
+best_score  : -0.21559166704948662
+best_params : {'C': 20, 'gamma': 0.6000000000000001, 'kernel': 'rbf'}
+prediction score
+RMSE, MAE, RMSE/MAE, R^2 = 0.22, 0.13, 1.70, 0.90
+R^2 train : -0.163, test : -0.049
+
+scoring =  r2
+search score
+best_score  : 0.22696769687799345
+best_params : {'C': 60, 'gamma': 0.6000000000000001, 'kernel': 'rbf'}
+prediction score
+RMSE, MAE, RMSE/MAE, R^2 = 0.25, 0.14, 1.74, 0.88
+R^2 train : 0.774, test : 0.877
+
