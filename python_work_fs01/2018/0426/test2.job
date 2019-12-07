@@ -1,0 +1,22 @@
+#!/bin/csh
+#$ -cwd
+#$ -V -S /bin/bash
+#$ -pe x24 24
+
+TMPDIR=/work/nakanishi/${JOB_ID}
+
+mkdir -p /work/nakanishi/${JOB_ID}
+cd       /work/nakanishi/${JOB_ID}
+
+cp -pr ~/python_work/2018/0426/*.csv .
+cp -pr ~/python_work/2018/0426/test2.py .
+echo -n "  running SVR with GridSearched hyper parameters..."
+~/bin/python test2.py > test2.out
+echo    " done"
+
+mv /work/nakanishi/${JOB_ID}  ${HOME}
+
+echo -e "  completed.\a"
+
+#:<<'#comment_out'
+#comment_out

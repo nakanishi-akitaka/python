@@ -1,0 +1,17 @@
+
+# SVR with GridSearched hyper parameters
+
+
+# SVR with GridSearched hyper parameters after MinMaxScaler
+search score
+best_score  : 0.8665341432084145
+best_params : {'pca__n_components': 6, 'svr__C': 200, 'svr__gamma': 100, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 8.784, 5.203, 1.688, 0.952
+Ca1H5 P = 250 GPa Tc = 150.2 K
+Ca1H6 P = 050 GPa Tc = 152.0 K
+Ca1H6 P = 100 GPa Tc = 160.2 K
+Ca1H6 P = 150 GPa Tc = 163.1 K
+Ca1H6 P = 200 GPa Tc = 160.2 K
+Ca1H6 P = 250 GPa Tc = 152.0 K
+Ca1H7 P = 050 GPa Tc = 150.2 K
+838.96 seconds 
