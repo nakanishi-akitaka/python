@@ -1,0 +1,121 @@
+# SVR with GridSearched hyper parameters after MinMaxScaler
+search score
+best_score  : 0.6345044325442547
+best_params : {'svr__C': 90, 'svr__gamma': 90, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 17.226, 8.559, 2.013, 0.808
+ P1H3 P = 200 GPa Tc = 163.7 K
+ P1H3 P = 250 GPa Tc = 166.5 K
+ P1H3 P = 300 GPa Tc = 154.0 K
+ S1H3 P = 150 GPa Tc = 164.6 K
+ S1H3 P = 200 GPa Tc = 181.7 K
+ S1H3 P = 250 GPa Tc = 183.7 K
+ S1H3 P = 300 GPa Tc = 169.0 K
+Cl1H3 P = 100 GPa Tc = 150.1 K
+Cl1H3 P = 150 GPa Tc = 177.7 K
+Cl1H3 P = 200 GPa Tc = 195.1 K
+Cl1H3 P = 250 GPa Tc = 196.4 K
+Cl1H3 P = 300 GPa Tc = 180.1 K
+Cl1H3 P = 350 GPa Tc = 151.1 K
+ K1H3 P = 100 GPa Tc = 160.5 K
+ K1H3 P = 150 GPa Tc = 188.7 K
+ K1H3 P = 200 GPa Tc = 205.6 K
+ K1H3 P = 250 GPa Tc = 205.7 K
+ K1H3 P = 300 GPa Tc = 188.2 K
+ K1H3 P = 350 GPa Tc = 158.1 K
+Ca1H3 P = 100 GPa Tc = 159.2 K
+Ca1H3 P = 150 GPa Tc = 186.6 K
+Ca1H3 P = 200 GPa Tc = 202.8 K
+Ca1H3 P = 250 GPa Tc = 202.5 K
+Ca1H3 P = 300 GPa Tc = 185.3 K
+Ca1H3 P = 350 GPa Tc = 156.2 K
+Sc1H3 P = 100 GPa Tc = 154.5 K
+Sc1H3 P = 150 GPa Tc = 180.4 K
+Sc1H3 P = 200 GPa Tc = 195.6 K
+Sc1H3 P = 250 GPa Tc = 195.1 K
+Sc1H3 P = 300 GPa Tc = 178.8 K
+Sc1H3 P = 350 GPa Tc = 151.3 K
+Ti1H3 P = 150 GPa Tc = 171.3 K
+Ti1H3 P = 200 GPa Tc = 185.4 K
+Ti1H3 P = 250 GPa Tc = 184.9 K
+Ti1H3 P = 300 GPa Tc = 169.7 K
+ V1H3 P = 150 GPa Tc = 160.7 K
+ V1H3 P = 200 GPa Tc = 173.6 K
+ V1H3 P = 250 GPa Tc = 173.2 K
+ V1H3 P = 300 GPa Tc = 159.5 K
+Cr1H3 P = 200 GPa Tc = 161.7 K
+Cr1H3 P = 250 GPa Tc = 161.5 K
+Mn1H3 P = 200 GPa Tc = 150.9 K
+Mn1H3 P = 250 GPa Tc = 151.1 K
+21.50 seconds 
+
+
+# SVR with GridSearched hyper parameters after StandardScaler
+search score
+best_score  : 0.6410725263147956
+best_params : {'svr__C': 90, 'svr__gamma': 4, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 17.007, 8.361, 2.034, 0.813
+Al1H3 P = 200 GPa Tc = 151.3 K
+Al1H3 P = 250 GPa Tc = 152.1 K
+Si1H3 P = 200 GPa Tc = 163.3 K
+Si1H3 P = 250 GPa Tc = 163.4 K
+ P1H3 P = 150 GPa Tc = 154.6 K
+ P1H3 P = 200 GPa Tc = 174.6 K
+ P1H3 P = 250 GPa Tc = 174.1 K
+ P1H3 P = 300 GPa Tc = 152.7 K
+ S1H3 P = 150 GPa Tc = 164.0 K
+ S1H3 P = 200 GPa Tc = 184.8 K
+ S1H3 P = 250 GPa Tc = 183.9 K
+ S1H3 P = 300 GPa Tc = 161.0 K
+Cl1H3 P = 150 GPa Tc = 172.3 K
+Cl1H3 P = 200 GPa Tc = 193.8 K
+Cl1H3 P = 250 GPa Tc = 192.5 K
+Cl1H3 P = 300 GPa Tc = 168.5 K
+ K1H3 P = 150 GPa Tc = 184.0 K
+ K1H3 P = 200 GPa Tc = 206.9 K
+ K1H3 P = 250 GPa Tc = 205.5 K
+ K1H3 P = 300 GPa Tc = 180.1 K
+Ca1H3 P = 150 GPa Tc = 187.2 K
+Ca1H3 P = 200 GPa Tc = 210.7 K
+Ca1H3 P = 250 GPa Tc = 209.6 K
+Ca1H3 P = 300 GPa Tc = 184.2 K
+Sc1H3 P = 150 GPa Tc = 188.4 K
+Sc1H3 P = 200 GPa Tc = 212.6 K
+Sc1H3 P = 250 GPa Tc = 212.0 K
+Sc1H3 P = 300 GPa Tc = 186.9 K
+Ti1H3 P = 150 GPa Tc = 187.8 K
+Ti1H3 P = 200 GPa Tc = 212.6 K
+Ti1H3 P = 250 GPa Tc = 212.7 K
+Ti1H3 P = 300 GPa Tc = 188.2 K
+ V1H3 P = 150 GPa Tc = 185.2 K
+ V1H3 P = 200 GPa Tc = 210.7 K
+ V1H3 P = 250 GPa Tc = 211.7 K
+ V1H3 P = 300 GPa Tc = 188.3 K
+ V1H3 P = 350 GPa Tc = 150.6 K
+Cr1H3 P = 150 GPa Tc = 180.9 K
+Cr1H3 P = 200 GPa Tc = 206.9 K
+Cr1H3 P = 250 GPa Tc = 209.2 K
+Cr1H3 P = 300 GPa Tc = 187.0 K
+Cr1H3 P = 350 GPa Tc = 150.6 K
+Mn1H3 P = 150 GPa Tc = 174.9 K
+Mn1H3 P = 200 GPa Tc = 201.5 K
+Mn1H3 P = 250 GPa Tc = 205.0 K
+Mn1H3 P = 300 GPa Tc = 184.4 K
+Fe1H3 P = 150 GPa Tc = 167.4 K
+Fe1H3 P = 200 GPa Tc = 194.5 K
+Fe1H3 P = 250 GPa Tc = 199.3 K
+Fe1H3 P = 300 GPa Tc = 180.5 K
+Co1H3 P = 150 GPa Tc = 158.5 K
+Co1H3 P = 200 GPa Tc = 186.0 K
+Co1H3 P = 250 GPa Tc = 192.3 K
+Co1H3 P = 300 GPa Tc = 175.3 K
+Ni1H3 P = 200 GPa Tc = 176.3 K
+Ni1H3 P = 250 GPa Tc = 183.8 K
+Ni1H3 P = 300 GPa Tc = 168.8 K
+Cu1H3 P = 200 GPa Tc = 165.3 K
+Cu1H3 P = 250 GPa Tc = 174.1 K
+Cu1H3 P = 300 GPa Tc = 161.0 K
+Zn1H3 P = 200 GPa Tc = 153.4 K
+Zn1H3 P = 250 GPa Tc = 163.3 K
+Zn1H3 P = 300 GPa Tc = 152.0 K
+Ga1H3 P = 250 GPa Tc = 151.3 K
+23.61 seconds 
