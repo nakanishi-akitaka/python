@@ -1,0 +1,40 @@
+
+
+# 1. SVR with default hyper parameters
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 0.228, 0.150, 1.519, 0.912
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 0.093, 0.093, 1.006, 0.982
+0.00 seconds 
+
+
+# 2. parameter optimization (Grid Search)
+search score
+In cross validation with best params =  {'C': 3, 'gamma': 0.4, 'kernel': 'rbf'}
+  scores for each fold =  [ 0.486  0.339  0.82   0.165 -0.053]
+  ave, std = 0.351 (+/-0.591)
+grid_search.cv_results_ =  {
+'mean_fit_time': array([0.001, 0.   , 0.   , ..., 0.   , 0.   , 0.   ]),
+ 'std_fit_time': array([6.882e-04, 1.787e-04, 4.056e-06, ..., 4.424e-06, 3.579e-06, 2.476e-06]), 
+ 'mean_score_time': array([0.001, 0.   , 0.   , ..., 0.   , 0.   , 0.   ]),
+ 'std_score_time': array([4.697e-04, 1.749e-04, 5.917e-06, ..., 3.545e-06, 5.256e-06, 2.038e-06]),
+ 'param_C': masked_array(data=[0.01, 0.02, 0.03, ..., 9000, 9000, 9000], dtype=object),
+ 'param_kernel': masked_array(data=['linear', 'linear', 'linear', ..., 'sigmoid', 'sigmoid', 'sigmoid'], dtype=object),
+ 'param_gamma': masked_array(data=[--, --, --, ..., 7000, 8000, 9000], dtype=object),
+ 'params': [{'C': 0.01, 'kernel': 'linear'}, ..., {'C': 9000, 'gamma': 9000, 'kernel': 'sigmoid'}],
+ 'split0_test_score': array([-1.517, -0.732, -3.159, ..., -9.298, -9.298, -9.298]),
+ 'split1_test_score': array([ -7.338,  -6.529,  -5.565, ..., -13.059, -13.059, -13.059]),
+ 'split2_test_score': array([ 0.063,  0.476,  0.43 , ..., -3.628, -3.628, -3.628]),
+ 'split3_test_score': array([-0.459, -0.252,  0.015, ..., -4.06 , -4.06 , -4.06 ]),
+ 'split4_test_score': array([ -22.727,  -10.336,   -7.067, ..., -115.232, -115.232, -115.232]),
+ 'mean_test_score': array([ -6.396,  -3.475,  -3.069, ..., -29.055, -29.055, -29.055]),
+ 'std_test_score': array([ 8.583,  4.241,  2.966, ..., 43.229, 43.229, 43.229]),
+ 'rank_test_score': array([ 988,  808,  718, ..., 2450, 2450, 2450], dtype=int32),
+ 'split0_train_score': array([ 0.33 ,  0.602,  0.763, ..., -0.199, -0.199, -0.199]),
+ 'split1_train_score': array([ 0.611,  0.667,  0.72 , ..., -1.594, -0.386, -0.218]),
+ 'split2_train_score': array([ 0.395,  0.567,  0.562, ..., -0.032, -0.032, -0.032]),
+ 'split3_train_score': array([ 4.689e-01,  5.592e-01,  6.015e-01, ..., -2.197e-04, -2.197e-04, -2.197e-04]),
+ 'split4_train_score': array([ 0.395,  0.486,  0.52 , ..., -0.001, -0.001, -0.001]),
+ 'mean_train_score': array([ 0.44 ,  0.576,  0.633, ..., -0.365, -0.124, -0.09 ]),
+ 'std_train_score': array([0.096, 0.059, 0.093, ..., 0.619, 0.15 , 0.098])}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 0.230, 0.155, 1.479, 0.911
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 0.098, 0.098, 1.001, 0.981
+16.33 seconds 
