@@ -1,0 +1,91 @@
+
+
+# SVR with GridSearched hyper parameters after MinMaxScaler
+search score
+best_score  : 0.780957474269429
+best_params : {'svr__C': 1024, 'svr__gamma': 256, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 7.634, 4.086, 1.868, 0.962
+ S1H3 P = 150 GPa Tc = 176 K
+ S1H3 P = 200 GPa Tc = 191 K
+ S1H3 P = 250 GPa Tc = 183 K
+ S1H3 P = 300 GPa Tc = 178 K
+ S1H3 P = 350 GPa Tc = 158 K
+Cl1H3 P = 100 GPa Tc = 189 K
+Cl1H3 P = 150 GPa Tc = 273 K
+Cl1H3 P = 200 GPa Tc = 279 K
+Cl1H3 P = 250 GPa Tc = 247 K
+Cl1H3 P = 300 GPa Tc = 213 K
+Cl1H3 P = 350 GPa Tc = 171 K
+ K1H3 P = 100 GPa Tc = 262 K
+ K1H3 P = 150 GPa Tc = 342 K
+ K1H3 P = 200 GPa Tc = 338 K
+ K1H3 P = 250 GPa Tc = 281 K
+ K1H3 P = 300 GPa Tc = 218 K
+ K1H3 P = 350 GPa Tc = 159 K
+Ca1H3 P = 100 GPa Tc = 247 K
+Ca1H3 P = 150 GPa Tc = 315 K
+Ca1H3 P = 200 GPa Tc = 308 K
+Ca1H3 P = 250 GPa Tc = 254 K
+Ca1H3 P = 300 GPa Tc = 193 K
+Ca1H6 P = 050 GPa Tc = 160 K
+Ca1H6 P = 100 GPa Tc = 182 K
+Ca1H6 P = 150 GPa Tc = 162 K
+Sc1H3 P = 100 GPa Tc = 211 K
+Sc1H3 P = 150 GPa Tc = 263 K
+Sc1H3 P = 200 GPa Tc = 256 K
+Sc1H3 P = 250 GPa Tc = 210 K
+Sc1H3 P = 300 GPa Tc = 159 K
+Sc1H6 P = 050 GPa Tc = 190 K
+Sc1H6 P = 100 GPa Tc = 236 K
+Sc1H6 P = 150 GPa Tc = 230 K
+Sc1H6 P = 200 GPa Tc = 188 K
+Ti1H3 P = 100 GPa Tc = 167 K
+Ti1H3 P = 150 GPa Tc = 203 K
+Ti1H3 P = 200 GPa Tc = 197 K
+Ti1H3 P = 250 GPa Tc = 163 K
+Ti1H6 P = 050 GPa Tc = 202 K
+Ti1H6 P = 100 GPa Tc = 263 K
+Ti1H6 P = 150 GPa Tc = 269 K
+Ti1H6 P = 200 GPa Tc = 223 K
+Ti1H6 P = 250 GPa Tc = 158 K
+ V1H6 P = 050 GPa Tc = 194 K
+ V1H6 P = 100 GPa Tc = 261 K
+ V1H6 P = 150 GPa Tc = 274 K
+ V1H6 P = 200 GPa Tc = 230 K
+ V1H6 P = 250 GPa Tc = 161 K
+Cr1H6 P = 050 GPa Tc = 172 K
+Cr1H6 P = 100 GPa Tc = 234 K
+Cr1H6 P = 150 GPa Tc = 249 K
+Cr1H6 P = 200 GPa Tc = 212 K
+Mn1H6 P = 100 GPa Tc = 192 K
+Mn1H6 P = 150 GPa Tc = 207 K
+Mn1H6 P = 200 GPa Tc = 178 K
+Fe1H6 P = 150 GPa Tc = 160 K
+As1H8 P = 450 GPa Tc = 151 K
+Pt1H6 P = 200 GPa Tc = 169 K
+Pt1H6 P = 250 GPa Tc = 156 K
+Au1H6 P = 150 GPa Tc = 170 K
+Au1H6 P = 200 GPa Tc = 196 K
+Au1H6 P = 250 GPa Tc = 181 K
+Hg1H6 P = 150 GPa Tc = 177 K
+Hg1H6 P = 200 GPa Tc = 205 K
+Hg1H6 P = 250 GPa Tc = 191 K
+Tl1H6 P = 150 GPa Tc = 162 K
+Tl1H6 P = 200 GPa Tc = 189 K
+Tl1H6 P = 250 GPa Tc = 180 K
+22.32 seconds 
+
+
+# SVR with GridSearched hyper parameters after MinMaxScaler
+search score
+best_score  : 0.6527886217119363
+best_params : {'svr__epsilon': 1, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 6.568, 3.926, 1.673, 0.972
+ S1H3 P = 150 GPa Tc = 155 K
+ S1H3 P = 200 GPa Tc = 191 K
+ S1H3 P = 250 GPa Tc = 183 K
+ S1H3 P = 300 GPa Tc = 177 K
+Cl1H3 P = 200 GPa Tc = 159 K
+Ca1H6 P = 150 GPa Tc = 163 K
+As1H8 P = 450 GPa Tc = 150 K
+8.77 seconds 
