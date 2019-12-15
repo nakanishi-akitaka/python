@@ -1,0 +1,44 @@
+
+
+# 1. SVR with default hyper parameters
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 0.317, 0.178, 1.784, 0.835
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 0.085, 0.081, 1.051, 0.987
+0.00 seconds 
+
+
+# 2. parameter optimization (Grid Search)
+search score
+In cross validation with best params =  {'C': 3, 'gamma': 0.4, 'kernel': 'rbf'}
+  scores for each fold =  [ 0.346 -0.324  0.617  0.571 -0.224]
+  ave, std = 0.197 (+/-0.793)
+  ave = grid_search.best_score  : 0.19707239774151172
+
+grid_search.cv_results_[params] =  1146
+grid_search.cv_results_[split0_test_score] =  0.346
+grid_search.cv_results_[split1_test_score] = -0.324
+grid_search.cv_results_[split2_test_score] =  0.617
+grid_search.cv_results_[split3_test_score] =  0.571
+grid_search.cv_results_[split4_test_score] = -0.224
+  ave = 0.197
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 0.314, 0.169, 1.853, 0.838
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 0.078, 0.072, 1.088, 0.989
+17.10 seconds 
+
+
+# 2.1. parameter optimization (Grid Search) + ShuffleSplit
+search score
+In cross validation with best params =  {'C': 0.09, 'gamma': 3, 'kernel': 'sigmoid'}
+  scores for each fold =  [  0.1   -25.257  -0.833  -3.269  -8.601]
+  ave, std = -7.572 (+/-18.689)
+  ave = grid_search.best_score  : 0.04007644202186676
+
+grid_search.cv_results_[params] =  3422
+grid_search.cv_results_[split0_test_score] =  0.923
+grid_search.cv_results_[split1_test_score] = -0.161
+grid_search.cv_results_[split2_test_score] = -0.008
+grid_search.cv_results_[split3_test_score] = -0.085
+grid_search.cv_results_[split4_test_score] = -0.469
+  ave = 0.040
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 0.854, 0.660, 1.295, -0.196
+prediction score: RMSE, MAE, RMSE/MAE, R^2 = 0.846, 0.653, 1.296, -0.323
+19.04 seconds 

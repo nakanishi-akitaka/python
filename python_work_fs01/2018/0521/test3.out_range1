@@ -1,0 +1,70 @@
+train_file = 
+test_file  = 
+
+
+# SVR with GridSearched hyper parameters after MinMaxScaler
+search score
+best_score  : 0.7538718967031734
+best_params : {'svr__C': 512, 'svr__epsilon': 1, 'svr__gamma': 512, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 7.073, 4.215, 1.678, 0.968
+ S1H3 P = 150 GPa Tc = 187 K
+ S1H3 P = 200 GPa Tc = 192 K
+ S1H3 P = 250 GPa Tc = 182 K
+ S1H3 P = 300 GPa Tc = 177 K
+Cl1H3 P = 150 GPa Tc = 253 K
+Cl1H3 P = 200 GPa Tc = 256 K
+Cl1H3 P = 250 GPa Tc = 220 K
+Cl1H3 P = 300 GPa Tc = 185 K
+ K1H3 P = 150 GPa Tc = 220 K
+ K1H3 P = 200 GPa Tc = 220 K
+ K1H3 P = 250 GPa Tc = 179 K
+Ca1H3 P = 150 GPa Tc = 160 K
+Ca1H3 P = 200 GPa Tc = 160 K
+Ca1H6 P = 100 GPa Tc = 170 K
+Ca1H6 P = 150 GPa Tc = 161 K
+Sc1H6 P = 100 GPa Tc = 196 K
+Sc1H6 P = 150 GPa Tc = 209 K
+Ti1H6 P = 100 GPa Tc = 188 K
+Ti1H6 P = 150 GPa Tc = 212 K
+Ti1H6 P = 200 GPa Tc = 155 K
+ V1H6 P = 100 GPa Tc = 154 K
+ V1H6 P = 150 GPa Tc = 179 K
+As1H8 P = 450 GPa Tc = 150 K
+Tl1H6 P = 200 GPa Tc = 162 K
+133.87 seconds 
+
+
+# SVR with GridSearched hyper parameters after StandardScaler
+search score
+best_score  : 0.65873058955429
+best_params : {'svr__C': 512, 'svr__epsilon': 1, 'svr__gamma': 32, 'svr__kernel': 'rbf'}
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 7.452, 4.272, 1.745, 0.964
+ P1H3 P = 150 GPa Tc = 164 K
+ P1H3 P = 250 GPa Tc = 152 K
+ P1H3 P = 300 GPa Tc = 168 K
+ S1H3 P = 150 GPa Tc = 206 K
+ S1H3 P = 200 GPa Tc = 189 K
+ S1H3 P = 250 GPa Tc = 182 K
+ S1H3 P = 300 GPa Tc = 177 K
+Cl1H3 P = 150 GPa Tc = 229 K
+Cl1H3 P = 200 GPa Tc = 227 K
+Cl1H3 P = 250 GPa Tc = 197 K
+Cl1H3 P = 300 GPa Tc = 174 K
+ K1H3 P = 150 GPa Tc = 204 K
+ K1H3 P = 200 GPa Tc = 219 K
+ K1H3 P = 250 GPa Tc = 172 K
+Ca1H3 P = 150 GPa Tc = 168 K
+Ca1H3 P = 200 GPa Tc = 184 K
+Ca1H6 P = 100 GPa Tc = 166 K
+Ca1H6 P = 150 GPa Tc = 164 K
+Sc1H6 P = 100 GPa Tc = 170 K
+Sc1H6 P = 150 GPa Tc = 191 K
+Ti1H6 P = 100 GPa Tc = 161 K
+Ti1H6 P = 150 GPa Tc = 197 K
+ V1H6 P = 150 GPa Tc = 182 K
+Cr1H6 P = 150 GPa Tc = 153 K
+As1H8 P = 450 GPa Tc = 150 K
+Au1H6 P = 200 GPa Tc = 165 K
+Hg1H6 P = 200 GPa Tc = 184 K
+Tl1H6 P = 200 GPa Tc = 177 K
+140.70 seconds 

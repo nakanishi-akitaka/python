@@ -1,0 +1,5 @@
+train_file = 
+test_file  = 
+C: 512, Epsilon: 1, Gamma: 1
+learning   score: RMSE, MAE, RMSE/MAE, R^2 = 5.766, 3.615, 1.595, 0.979
+13.92 seconds 
